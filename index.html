@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeStyle | Furniture & Home Essentials</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <a href="index.html" class="logo">Home<span>Style</span></a>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html" class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <h1>Transform Your Home with Style</h1>
+        <p>
+          Discover our exclusive collection of furniture and home essentials
+          that combine comfort, quality, and elegance.
+        </p>
+        <a href="products.html" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Featured Categories Preview -->
+    <section class="categories-preview">
+      <div class="container">
+        <div class="section-title">
+          <h2>Shop by Category</h2>
+        </div>
+        <div class="categories-grid">
+          <div class="category-card">
+            <i class="fas fa-couch category-icon"></i>
+            <h3>Living Room</h3>
+            <p>
+              Comfortable sofas, elegant coffee tables, and stylish
+              entertainment units.
+            </p>
+            <a href="categories.html#living-room" class="btn"
+              >View Collection</a
+            >
+          </div>
+          <div class="category-card">
+            <i class="fas fa-bed category-icon"></i>
+            <h3>Bedroom</h3>
+            <p>Luxurious beds, spacious wardrobes, and cozy nightstands.</p>
+            <a href="categories.html#bedroom" class="btn">View Collection</a>
+          </div>
+          <div class="category-card">
+            <i class="fas fa-utensils category-icon"></i>
+            <h3>Dining Room</h3>
+            <p>
+              Beautiful dining sets, buffets, and bar furniture for
+              entertaining.
+            </p>
+            <a href="categories.html#dining-room" class="btn"
+              >View Collection</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Preview -->
+    <section class="products-preview">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Products</h2>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./images/modern sofa.jpg" alt="Modern Sofa" />
+            </div>
+            <div class="product-info">
+              <h3>Modern Comfort Sofa</h3>
+              <p class="product-price">$899.99</p>
+              <button
+                class="add-to-cart"
+                data-id="2"
+                data-name="Modern Comfort Sofa"
+                data-price="899.99"
+                data-image="images/modern-sofa.jpg"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./images/dining table.jpg" alt="Dining Table" />
+            </div>
+            <div class="product-info">
+              <h3>Elegant Dining Table</h3>
+              <p class="product-price">$1,299.99</p>
+              <button
+                class="add-to-cart"
+                data-id="3"
+                data-name="Elegant Dining Table"
+                data-price="1299.99"
+                data-image="images/dining-table.jpg"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./images/king size bed.jpg" alt="Bed" />
+            </div>
+            <div class="product-info">
+              <h3>Luxury King Bed</h3>
+              <p class="product-price">$1,599.99</p>
+              <button
+                class="add-to-cart"
+                data-id="4"
+                data-name="Luxury King Bed"
+                data-price="1599.99"
+                data-image="images/king-bed.jpg"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="products.html" class="btn">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>HomeStyle</h3>
+            <p>
+              Creating beautiful spaces since 2008. We're dedicated to providing
+              quality furniture that transforms your house into a home.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="categories.html">Categories</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="cart.html">Cart</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">Care Instructions</a></li>
+              <li><a href="#">Warranty</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>
+              Subscribe to get special offers, free giveaways, and new product
+              announcements.
+            </p>
+            <form class="newsletter-form">
+              <div class="form-group">
+                <input type="email" placeholder="Your email address" required />
+                <button type="submit" class="btn">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 HomeStyle. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Notification -->
+    <div class="notification" id="notification">
+      <i class="fas fa-check-circle"></i>
+      <span>Product added to cart successfully!</span>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
